@@ -1,0 +1,21 @@
+{
+   "xdai":{
+      "web3":[
+         {"uri":"https://xdaiq1.vocdoni.net"},
+         {"uri":"https://xdai2.vocdoni.net"},
+         {"uri":"https://dai.poa.network"}
+      ],      
+      "dvote":[
+         {
+            "uri":"https://gw2.stg.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"02012069e5481818a0e3c2768451334f4d0e166d0943027e2446941bdc2d73cef3"
+         }
+       ]
+   }
+}
