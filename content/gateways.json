@@ -1,8 +1,7 @@
 {
    "xdai":{
       "web3":[
-         {"uri":"https://xdai2.vocdoni.net"},
-         {"uri":"https://xdaiq1.vocdoni.net"}
+         {"uri":"https://xdai2.vocdoni.net"}
       ],      
       "dvote":[
 	  {
