@@ -1,7 +1,7 @@
 {
    "xdai":{
       "web3":[
-         {"uri":"https://xdaiq1.vocdoni.net"},
+         {"uri":"https://xdaiq1.vocdoni.net/2e46be02a8f4105fcf08054c5d2afb7818e2c084/"},
          {"uri":"https://xdai2.vocdoni.net"},
          {"uri":"https://dai.poa.network"}
       ],      
