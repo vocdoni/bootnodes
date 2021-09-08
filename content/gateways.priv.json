@@ -53,16 +53,6 @@
                "results"
             ],
             "pubKey":"039d6c576b78d9d12f7a217aaad1c7b3d4e888dd0b8305f41601335a0b867c2458"
-         },
-         {
-            "uri":"https://litxi.jumpingcrab.com/dvote",
-            "apis":[
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey":"0399f0c1955d7828330b064f04f475b4da608a679531bfd0cb4c3e31e4e9d18dae"
          }
        ]
    }
