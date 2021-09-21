@@ -14,6 +14,11 @@
         "uri": "https://gw2.dev.vocdoni.net/dvote",
         "apis": ["file", "vote", "census", "results"],
         "pubKey": "02b42acf7899a8884168b0e62d8804501ce3330b4185f14805cd74b0e310da6746"
+      },
+      {
+        "uri": "https://gw3.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02fa192afd0b6e3950cba0c3b0f385d6bc1f9e42ee29dd8989bac6cc0998a47d49"
       }
     ]
   },
@@ -33,6 +38,11 @@
         "uri": "https://gw2.dev.vocdoni.net/dvote",
         "apis": ["file", "vote", "census", "results"],
         "pubKey": "02b42acf7899a8884168b0e62d8804501ce3330b4185f14805cd74b0e310da6746"
+      },
+      {
+        "uri": "https://gw3.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02fa192afd0b6e3950cba0c3b0f385d6bc1f9e42ee29dd8989bac6cc0998a47d49"
       }
     ]
   },
@@ -51,6 +61,11 @@
         "uri": "https://gw2.dev.vocdoni.net/dvote",
         "apis": ["file", "vote", "census", "results"],
         "pubKey": "02b42acf7899a8884168b0e62d8804501ce3330b4185f14805cd74b0e310da6746"
+      },
+      {
+        "uri": "https://gw3.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02fa192afd0b6e3950cba0c3b0f385d6bc1f9e42ee29dd8989bac6cc0998a47d49"
       }
     ]
   }
