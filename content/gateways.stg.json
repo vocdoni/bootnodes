@@ -1,9 +1,7 @@
 {
    "xdai":{
       "web3":[
-         {"uri":"https://xdai4.vocdoni.net"},
-         {"uri":"https://xdai5.vocdoni.net"},
-         {"uri":"https://xdai3.vocdoni.net"},
+         {"uri":"https://xdai.aragon.network"},
          {"uri":"https://dai.poa.network"}
       ],      
       "dvote":[
