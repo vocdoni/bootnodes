@@ -48,6 +48,7 @@
   },
   "rinkeby": {
     "web3": [
+      { "uri": "https://rinkeby.eth.aragon.network" },
       { "uri": "https://rinkeby.infura.io/v3/b5825b1fbf1e4a828cc385de83b9dc7e" }
     ],
     "dvote": [
