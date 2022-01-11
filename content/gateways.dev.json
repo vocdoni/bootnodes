@@ -54,7 +54,51 @@
     "dvote": [
       {
         "uri": "https://gw1.dev.vocdoni.net/dvote",
-	"apis": ["file", "vote", "census", "results"],
+     "apis": ["file", "vote", "census", "results"],
+        "pubKey": "0343ac5511425551609ab3ee81a4e345abc043069ae27db91002b5d3b8e93ade1a"
+      },
+      {
+        "uri": "https://gw2.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02b42acf7899a8884168b0e62d8804501ce3330b4185f14805cd74b0e310da6746"
+      },
+      {
+        "uri": "https://gw3.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02fa192afd0b6e3950cba0c3b0f385d6bc1f9e42ee29dd8989bac6cc0998a47d49"
+      }
+    ]
+  },
+  "fuji": {
+    "web3": [
+      { "uri": "https://api.avax-test.network/ext/bc/C/rpc" }
+    ],
+    "dvote": [
+      {
+        "uri": "https://gw1.dev.vocdoni.net/dvote",
+	      "apis": ["file", "vote", "census", "results"],
+        "pubKey": "0343ac5511425551609ab3ee81a4e345abc043069ae27db91002b5d3b8e93ade1a"
+      },
+      {
+        "uri": "https://gw2.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02b42acf7899a8884168b0e62d8804501ce3330b4185f14805cd74b0e310da6746"
+      },
+      {
+        "uri": "https://gw3.dev.vocdoni.net/dvote",
+        "apis": ["file", "vote", "census", "results"],
+        "pubKey": "02fa192afd0b6e3950cba0c3b0f385d6bc1f9e42ee29dd8989bac6cc0998a47d49"
+      }
+    ]
+  },
+  "avax": {
+    "web3": [
+      { "uri": "https://api.avax.network/ext/bc/C/rpc" }
+    ],
+    "dvote": [
+      {
+        "uri": "https://gw1.dev.vocdoni.net/dvote",
+	      "apis": ["file", "vote", "census", "results"],
         "pubKey": "0343ac5511425551609ab3ee81a4e345abc043069ae27db91002b5d3b8e93ade1a"
       },
       {
