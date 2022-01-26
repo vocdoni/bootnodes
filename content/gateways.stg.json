@@ -1,11 +1,67 @@
 {
+   "mainnet":{
+      "web3":[
+         {
+            "uri":"https://mainnet.infura.io/v3/94d2e8caf1bc4c4884af830d96f927ca"
+         },
+         {
+            "uri":"https://eth-mainnet.alchemyapi.io/v2/93Zb97LaPj66HvinhKG0xzOklh4kGdT4"
+         }
+      ],
+      "dvote":[
+         {
+            "uri":"https://gw1.stg.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"029b5470ec884e8f74f2ca7e3ed0698914f762fd092e7d49c77d4d6c3cce261cdd"
+         },
+         {
+            "uri":"https://gw3stg.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"02c8c773a44d213e0e0a628e28f83178796daabcab4e922be956ee3fa2716f7752"
+         },
+         {
+            "uri":"https://gw4stg.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"020ee0260ead60bec094fd3e808823ac96f10ad2a416bc72e0e2eb0135cf29aed5"
+         },
+         {
+            "uri":"https://cirera.jumpingcrab.com/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"03eaaae77e1c3fd0cc7b82af30e1c7bbf0e013c413c57449add496c4e47a0c20ac"
+         }
+      ]
+   },
    "xdai":{
       "web3":[
-         {"uri":"https://xdai.aragon.network"},
-         {"uri":"https://dai.poa.network"}
-      ],      
+         {
+            "uri":"https://xdai.aragon.network"
+         },
+         {
+            "uri":"https://dai.poa.network"
+         }
+      ],
       "dvote":[
-        {
+         {
             "uri":"https://gw1.stg.vocdoni.net/dvote",
             "apis":[
                "file",
@@ -45,15 +101,19 @@
             ],
             "pubKey":"03eaaae77e1c3fd0cc7b82af30e1c7bbf0e013c413c57449add496c4e47a0c20ac"
          }
-       ]
+      ]
    },
-      "rinkeby":{
+   "rinkeby":{
       "web3":[
-        { "uri": "https://rinkeby.vocdoni.net" },
-        { "uri": "https://rinkeby.infura.io/v3/b5825b1fbf1e4a828cc385de83b9dc7e" }
-      ],      
+         {
+            "uri":"https://rinkeby.vocdoni.net"
+         },
+         {
+            "uri":"https://rinkeby.infura.io/v3/b5825b1fbf1e4a828cc385de83b9dc7e"
+         }
+      ],
       "dvote":[
-        {
+         {
             "uri":"https://gw1.stg.vocdoni.net/dvote",
             "apis":[
                "file",
@@ -93,14 +153,16 @@
             ],
             "pubKey":"03eaaae77e1c3fd0cc7b82af30e1c7bbf0e013c413c57449add496c4e47a0c20ac"
          }
-       ]
+      ]
    },
    "goerli":{
       "web3":[
-         {"uri":"https://goerli.vocdoni.net"}
-      ],      
+         {
+            "uri":"https://goerli.vocdoni.net"
+         }
+      ],
       "dvote":[
-        {
+         {
             "uri":"https://gw1.stg.vocdoni.net/dvote",
             "apis":[
                "file",
@@ -140,6 +202,6 @@
             ],
             "pubKey":"03eaaae77e1c3fd0cc7b82af30e1c7bbf0e013c413c57449add496c4e47a0c20ac"
          }
-       ]
+      ]
    }
 }
