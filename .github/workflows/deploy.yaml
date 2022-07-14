@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+ push:
+  branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v0
+      - name: Upload static site to GCP
+        run: |
+          gsutil -m cp -r content/* gs://bootnodes-vocdoni-net
