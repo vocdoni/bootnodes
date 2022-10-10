@@ -1,8 +1,7 @@
 {
-  "rinkeby": {
+  "goerli": {
     "web3": [
-      { "uri": "https://rinkeby.infura.io/v3/b5825b1fbf1e4a828cc385de83b9dc7e" },
-      { "uri": "https://eth-rinkeby.alchemyapi.io/v2/bgIqe2NxazpzsjfmVmhj3aS3j_HZ9mpr" }
+      { "uri": "https://goerli.eth.aragon.network" }
     ],
     "dvote": [
       {
