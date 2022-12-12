@@ -2,9 +2,6 @@
   "xdai": {
     "web3": [
       {
-        "uri": "https://xdai.aragon.network"
-      },
-      {
         "uri": "https://rpc.gnosischain.com"
       },
       {
