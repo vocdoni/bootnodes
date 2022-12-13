@@ -5,7 +5,7 @@
         "uri": "https://rpc.ankr.com/gnosis"
       },
       {
-        "uri": "https://rpc.gnosischain.com"
+        "uri": "https://gnosis-mainnet.public.blastapi.io"
       },
       {
         "uri": "https://gnosischain-rpc.gateway.pokt.network"
