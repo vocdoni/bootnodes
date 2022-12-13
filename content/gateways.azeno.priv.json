@@ -2,6 +2,9 @@
   "xdai": {
     "web3": [
       {
+        "uri": "https://rpc.ankr.com/gnosis"
+      },
+      {
         "uri": "https://rpc.gnosischain.com"
       },
       {
