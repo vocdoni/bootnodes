@@ -3,6 +3,9 @@
     "web3": [
       {
         "uri": "https://misty-ancient-cherry.xdai.quiknode.pro/41c73864d5b2fa0b1c488e0a779572d959bd8e43/"
+      }, 
+      {
+        "uri": "https://poa-xdai.gateway.pokt.network/v1/lb/61140fc659501900341babff"
       }
     ],
     "dvote": [
