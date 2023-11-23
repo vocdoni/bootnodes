@@ -9,35 +9,15 @@
          }
       ],
       "dvote": [
-         {
-            "uri": "https://gw1.vocdoni.net/dvote",
+           {
+            "uri": "https://azeno.vocdoni.net/dvote",
             "apis": [
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey": "030fe49746e05b9a6fe509367e66ea9081449feb48e9ff3c058a273de14273aceb"
-         },
-         {
-            "uri": "https://gw4.vocdoni.net/dvote",
-            "apis": [
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey": "02e7d206ee636bc170336002170b9f01d71488632fa3f4dfa895d423f93a50baeb"
-         },
-         {
-            "uri": "https://gw3.vocdoni.net/dvote",
-            "apis": [
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey": "03fa03644287f3ab2d700dcad0ad042a2e45ed5f1db889f8d33f027c99adb4715e"
+            "pubKey": "744249f037c8043e5909eabcd7455f80ffb4bd84cb7de5c8e266725000b89d8f"
          }
       ]
    },
@@ -52,34 +32,14 @@
       ],
       "dvote": [
          {
-            "uri": "https://gw1.vocdoni.net/dvote",
+            "uri": "https://azeno.vocdoni.net/dvote",
             "apis": [
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey": "030fe49746e05b9a6fe509367e66ea9081449feb48e9ff3c058a273de14273aceb"
-         },
-         {
-            "uri": "https://gw4.vocdoni.net/dvote",
-            "apis": [
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey": "02e7d206ee636bc170336002170b9f01d71488632fa3f4dfa895d423f93a50baeb"
-         },
-         {
-            "uri": "https://gw3.vocdoni.net/dvote",
-            "apis": [
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey": "03fa03644287f3ab2d700dcad0ad042a2e45ed5f1db889f8d33f027c99adb4715e"
+            "pubKey": "744249f037c8043e5909eabcd7455f80ffb4bd84cb7de5c8e266725000b89d8f"
          }
       ]
    }
