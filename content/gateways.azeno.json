@@ -10,14 +10,14 @@
       ],
       "dvote":[
          {
-            "uri":"https://azeno.vocdoni.net/dvote",
+            "uri":"https://gw1.azeno.vocdoni.net/dvote",
             "apis":[
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey":"022ca725d1b3f0946c942ef2e45583bf5ff859151d6f54648d003477ee85839e31"
+            "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
          }
       ]
    },
@@ -32,14 +32,14 @@
       ],
       "dvote":[
          {
-            "uri":"https://azeno.vocdoni.net/dvote",
+            "uri":"https://gw1.azeno.vocdoni.net/dvote",
             "apis":[
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey":"022ca725d1b3f0946c942ef2e45583bf5ff859151d6f54648d003477ee85839e31"
+            "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
          }
       ]
    }
