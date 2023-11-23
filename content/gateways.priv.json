@@ -1,58 +1,79 @@
 {
    "goerli":{
       "web3":[
-         {"uri":"https://goerli.infura.io/v3/63831ad4d7034546a84339d02cba2eab"},
-         {"uri":"https://gw3.vocdoni.net/web3"}
+         {
+            "uri":"https://goerli.infura.io/v3/63831ad4d7034546a84339d02cba2eab"
+         },
+         {
+            "uri":"https://gw3.vocdoni.net/web3"
+         }
       ],
- 
       "dvote":[
-          {
-            "uri":"wss://gw2.vocdoni.net/dvote",
+         {
+            "uri":"https://azeno.vocdoni.net/dvote",
             "apis":[
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey":"024828e58b915ab5c07124a159469974231549acc264f473ee5b19cb7c1eaa2cec"
+            "pubKey":"744249f037c8043e5909eabcd7455f80ffb4bd84cb7de5c8e266725000b89d8f"
          }
       ]
    },
    "xdai":{
       "web3":[
-         {"uri":"https://xdai.aragon.network"}
+         {
+            "uri":"https://xdai.aragon.network"
+         }
       ],
       "dvote":[
-          {
-            "uri":"https://gw2.vocdoni.net/dvote",
-            "apis":[
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey":"024828e58b915ab5c07124a159469974231549acc264f473ee5b19cb7c1eaa2cec"
-         },
          {
-            "uri":"https://gw5.vocdoni.net/dvote",
-            "apis":[
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey":"02a2dbf02a74ad4928e4704110dc18c5f01c9d43c97d593dd64203247fa1bd5876"
-         },
-         {
-            "uri":"https://gw6.vocdoni.net/dvote",
-            "apis":[
-               "file",
-               "vote",
-               "census",
-               "results"
-            ],
-            "pubKey":"039d6c576b78d9d12f7a217aaad1c7b3d4e888dd0b8305f41601335a0b867c2458"
+            "xdai":{
+               "web3":[
+                  {
+                     "uri":"https://xdai1.vocdoni.net"
+                  },
+                  {
+                     "uri":"https://xdai.aragon.network"
+                  }
+               ],
+               "dvote":[
+                  {
+                     "uri":"https://azeno.vocdoni.net/dvote",
+                     "apis":[
+                        "file",
+                        "vote",
+                        "census",
+                        "results"
+                     ],
+                     "pubKey":"744249f037c8043e5909eabcd7455f80ffb4bd84cb7de5c8e266725000b89d8f"
+                  }
+               ]
+            },
+            "mainnet":{
+               "web3":[
+                  {
+                     "uri":"https://mainnet.infura.io/v3/94d2e8caf1bc4c4884af830d96f927ca"
+                  },
+                  {
+                     "uri":"https://eth-mainnet.alchemyapi.io/v2/93Zb97LaPj66HvinhKG0xzOklh4kGdT4"
+                  }
+               ],
+               "dvote":[
+                  {
+                     "uri":"https://azeno.vocdoni.net/dvote",
+                     "apis":[
+                        "file",
+                        "vote",
+                        "census",
+                        "results"
+                     ],
+                     "pubKey":"744249f037c8043e5909eabcd7455f80ffb4bd84cb7de5c8e266725000b89d8f"
+                  }
+               ]
+            }
          }
-       ]
+      ]
    }
 }
