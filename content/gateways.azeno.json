@@ -18,6 +18,16 @@
                "results"
             ],
             "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
+         },
+         {
+            "uri":"https://gw2.azeno.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"030d891e0426d81571146dea9ce3caa710800253681c1f629e5e8c84232f3df4db"
          }
       ]
    },
@@ -40,6 +50,16 @@
                "results"
             ],
             "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
+         },
+         {
+            "uri":"https://gw2.azeno.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"030d891e0426d81571146dea9ce3caa710800253681c1f629e5e8c84232f3df4db"
          }
       ]
    }
