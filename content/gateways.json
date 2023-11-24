@@ -1,45 +1,65 @@
 {
-   "xdai": {
-      "web3": [
+   "xdai":{
+      "web3":[
          {
-            "uri": "https://xdai1.vocdoni.net"
+            "uri":"https://rpc.gnosischain.com"
          },
          {
-            "uri": "https://xdai.aragon.network"
+            "uri":"https://gnosischain-rpc.gateway.pokt.network"
          }
       ],
-      "dvote": [
-           {
-            "uri": "https://azeno.vocdoni.net/dvote",
-            "apis": [
+      "dvote":[
+         {
+            "uri":"https://gw1.azeno.vocdoni.net/dvote",
+            "apis":[
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey": "022ca725d1b3f0946c942ef2e45583bf5ff859151d6f54648d003477ee85839e31"
+            "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
+         },
+         {
+            "uri":"https://gw2.azeno.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"030d891e0426d81571146dea9ce3caa710800253681c1f629e5e8c84232f3df4db"
          }
       ]
    },
-   "mainnet": {
-      "web3": [
+   "mainnet":{
+      "web3":[
          {
-            "uri": "https://mainnet.infura.io/v3/94d2e8caf1bc4c4884af830d96f927ca"
+            "uri":"https://mainnet.infura.io/v3/94d2e8caf1bc4c4884af830d96f927ca"
          },
          {
-            "uri": "https://eth-mainnet.alchemyapi.io/v2/93Zb97LaPj66HvinhKG0xzOklh4kGdT4"
+            "uri":"https://eth-mainnet.alchemyapi.io/v2/93Zb97LaPj66HvinhKG0xzOklh4kGdT4"
          }
       ],
-      "dvote": [
+      "dvote":[
          {
-            "uri": "https://azeno.vocdoni.net/dvote",
-            "apis": [
+            "uri":"https://gw1.azeno.vocdoni.net/dvote",
+            "apis":[
                "file",
                "vote",
                "census",
                "results"
             ],
-            "pubKey": "022ca725d1b3f0946c942ef2e45583bf5ff859151d6f54648d003477ee85839e31"
+            "pubKey":"03097d7e6bddeab8e0310f6d45409be8b00d465400e9cf1259f2b89eb432879a8b"
+         },
+         {
+            "uri":"https://gw2.azeno.vocdoni.net/dvote",
+            "apis":[
+               "file",
+               "vote",
+               "census",
+               "results"
+            ],
+            "pubKey":"030d891e0426d81571146dea9ce3caa710800253681c1f629e5e8c84232f3df4db"
          }
       ]
    }
