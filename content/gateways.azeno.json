@@ -35,9 +35,6 @@
       "web3":[
          {
             "uri":"https://mainnet.infura.io/v3/94d2e8caf1bc4c4884af830d96f927ca"
-         },
-         {
-            "uri":"https://eth-mainnet.alchemyapi.io/v2/93Zb97LaPj66HvinhKG0xzOklh4kGdT4"
          }
       ],
       "dvote":[
